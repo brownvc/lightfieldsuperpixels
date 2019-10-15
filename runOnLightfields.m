@@ -4,7 +4,10 @@
 %%
 function runOnLightfields ( D )
   addpath('./prop', './lines', './seg', './util');
-  
+  if isempty(D{1})
+    disp('Error! No input file specified. Please see README.md for help.');
+    return;
+  end
   % Results are saved in a a folder with the current timestamp as the name
   %
   tstamp = datestr(datetime, 'dd-mmm-yyyy HHMM');
@@ -46,11 +49,11 @@ function runOnLightfields ( D )
   for i = 1:length(D)
 
     % Load the lightfield images
-    %LF = loadLF( D{i}, param.uCamMovingRight, param.vCamMovingRight, 'lab');
+    LF = loadLF( D{i}, param.uCamMovingRight, param.vCamMovingRight, 'lab');
 
     % Uncomment the following line if you would like to use the utility function for 
     % reading the .H5 files of the old HCI dataset.
-    LF = HCIloadLF( D{i}, 'lab');
+    %LF = HCIloadLF( D{i}, 'lab');
 
     if isempty(LF)
       return;

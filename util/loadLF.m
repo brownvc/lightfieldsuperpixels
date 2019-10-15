@@ -57,7 +57,7 @@ function LF = loadLF( fin, uCameraMovingRight, vCameraMovingRight, cspace)
     LF = LF{1};
   else
     disp(['Error: Unrecognized light field file extension ' ext]);
-    disp("Hint: Use utility function HCIloadLF to load HCI dataset light fields.");
+    disp("Hint: Use utility function HCIloadLF in runOnLightfields.m to load HCI dataset light fields.");
     return;
   end
 

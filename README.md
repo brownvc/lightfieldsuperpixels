@@ -8,7 +8,7 @@
  <sup>1</sup>Brown, <sup>2</sup>KAIST 
  In ICCV 2019
 
-### MATLAB Code | [Paper](https://cs.brown.edu) | [Video](https://www.youtube.com/watch?v=s2EVBgeo40Y)
+### MATLAB Code | [Paper](https://cs.brown.edu/~nkhan6/docs/khan_iccv19.pdf) | [Supplemental](https://cs.brown.edu/~nkhan6/docs/khan_iccv19_supplemental.pdf) | [Video](https://www.youtube.com/watch?v=s2EVBgeo40Y)
 
 ## Running the Code
 * [Generating superpixels](#generating-superpixels)
