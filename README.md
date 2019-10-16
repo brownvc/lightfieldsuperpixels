@@ -1,7 +1,7 @@
 
 # View-Consistent 4D Light Field Superpixel Segmentation
  [Numair Khan](https://cs.brown.edu/~nkhan6)<sup>1</sup>, 
- [Qian Zhang](https://cs.brown.edu)<sup>1</sup>, 
+ [Qian Zhang](https://qianzhanginfo.github.io/)<sup>1</sup>, 
  Lucas Kasser<sup>1</sup>,Henry Stone<sup>1</sup>,
  [Min H. Kim](http://vclab.kaist.ac.kr/minhkim/)<sup>2</sup>,
  [James Tompkin](https://jamestompkin.com)<sup>1</sup><br>
