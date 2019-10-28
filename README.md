@@ -4,7 +4,7 @@
  [Qian Zhang](https://qianzhanginfo.github.io/)<sup>1</sup>, 
  Lucas Kasser<sup>1</sup>,Henry Stone<sup>1</sup>,
  [Min H. Kim](http://vclab.kaist.ac.kr/minhkim/)<sup>2</sup>,
- [James Tompkin](https://jamestompkin.com)<sup>1</sup><br>
+ [James Tompkin](http://www.jamestompkin.com)<sup>1</sup><br>
  <sup>1</sup>Brown, <sup>2</sup>KAIST<br>
  ICCV 2019
 
