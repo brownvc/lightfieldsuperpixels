@@ -5,15 +5,16 @@
  Lucas Kasser<sup>1</sup>,Henry Stone<sup>1</sup>,
  [Min H. Kim](http://vclab.kaist.ac.kr/minhkim/)<sup>2</sup>,
  [James Tompkin](https://jamestompkin.com)<sup>1</sup><br>
- <sup>1</sup>Brown, <sup>2</sup>KAIST 
- In ICCV 2019
+ <sup>1</sup>Brown, <sup>2</sup>KAIST<br>
+ ICCV 2019
 
+Presentation Video (YouTube)
 [![Foo](./view-consistent-superpixels.gif)](https://youtu.be/xO2DW7N2GdE)
 
-### MATLAB Code | [Paper](https://cs.brown.edu/~nkhan6/docs/khan_iccv19.pdf) | [Supplemental](https://cs.brown.edu/~nkhan6/docs/khan_iccv19_supplemental.pdf) | [Results Video](https://www.youtube.com/watch?v=s2EVBgeo40Y) | [Presentation Video](https://youtu.be/xO2DW7N2GdE)
+### MATLAB Code | [Paper](https://cs.brown.edu/~nkhan6/docs/khan_iccv19.pdf) | [Supplemental](https://cs.brown.edu/~nkhan6/docs/khan_iccv19_supplemental.pdf) | [Presentation Video](https://youtu.be/xO2DW7N2GdE) | [Supplemental Results Video](https://www.youtube.com/watch?v=s2EVBgeo40Y) 
 
 ## Citation
-If you use this code in your work, please cite our paper,
+If you use this code in your work, please cite our paper:
 
 ```
 @article{khan2019vclfs,
@@ -85,6 +86,6 @@ ordering; for light field images this should be `(y, x, rgb, v, u)` and for supe
 
 ## Errata 
 
-- In Figure 8 of the paper, the central row of the EPFL light fields show view(4, 4), rather than view(5, 5)
-- The manner in which labels are propagated has been updated. Before we were beginning at the top-most view in the central column, and moving down. Now we move out from the central view in a spiral. This leads to a slight improvement over the results reported in the paper.
-
+- In Figure 8 of the main paper, the central row of the EPFL light fields show view(4, 4), rather than view(5, 5).
+- The manner in which labels are propagated has been updated in this codebase. Before, we began at the top-most view in the central column and moved down. In this code, we move out from the central view in a spiral. This leads to a slight improvement over the results reported in the ICCV published paper. The paper linked from this repository includes the new results which match the code repository.
+- The supplemental material linked from this repository has additional analysis of hyperparameter variation for all techniques across our analysis metrics.
