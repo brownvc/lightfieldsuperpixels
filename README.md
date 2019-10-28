@@ -8,10 +8,11 @@
  <sup>1</sup>Brown, <sup>2</sup>KAIST<br>
  ICCV 2019
 
-Presentation Video (YouTube)
-[![Foo](./view-consistent-superpixels.gif)](https://youtu.be/xO2DW7N2GdE)
+Presentation Video (YouTube)<br>
+<a href="https://youtu.be/xO2DW7N2GdE"><img src="./view-consistent-superpixels.gif" width="70%"></a><br>
 
-### MATLAB Code | [Paper](https://cs.brown.edu/~nkhan6/docs/khan_iccv19.pdf) | [Supplemental](https://cs.brown.edu/~nkhan6/docs/khan_iccv19_supplemental.pdf) | [Presentation Video](https://youtu.be/xO2DW7N2GdE) | [Supplemental Results Video](https://www.youtube.com/watch?v=s2EVBgeo40Y) 
+
+### [Paper](https://cs.brown.edu/~nkhan6/docs/khan_iccv19.pdf) | [Supplemental](https://cs.brown.edu/~nkhan6/docs/khan_iccv19_supplemental.pdf) | [Presentation Video](https://youtu.be/xO2DW7N2GdE) | [Supplemental Results Video](https://www.youtube.com/watch?v=s2EVBgeo40Y) 
 
 ## Citation
 If you use this code in your work, please cite our paper:
@@ -25,7 +26,7 @@ If you use this code in your work, please cite our paper:
 }
 ```
 
-## Running the Code
+## Running the MATLAB Code
 * [Generating superpixels](#generating-superpixels)
 * [Comparing your own results on the HCI dataset](#comparing-results-hci)
 * [Comparing your own results on other datasets](#comparing-results)
