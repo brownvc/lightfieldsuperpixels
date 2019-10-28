@@ -8,10 +8,8 @@
  <sup>1</sup>Brown, <sup>2</sup>KAIST 
  In ICCV 2019
 
-[![Foo](./view-consistent-superpixels.gif)](https://youtu.be/xO2DW7N2GdE)
-
 <p align="center"> 
-[<img src="./view-consistent-superpixels.gif">](https://youtu.be/xO2DW7N2GdE)
+[![Foo](./view-consistent-superpixels.gif)](https://youtu.be/xO2DW7N2GdE)
 </p>
 
 ### MATLAB Code | [Paper](https://cs.brown.edu/~nkhan6/docs/khan_iccv19.pdf) | [Supplemental](https://cs.brown.edu/~nkhan6/docs/khan_iccv19_supplemental.pdf) | [Results Video](https://www.youtube.com/watch?v=s2EVBgeo40Y) | [Presentation Video](https://youtu.be/xO2DW7N2GdE)
