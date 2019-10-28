@@ -113,12 +113,8 @@ function VCLFS (LF, fout, param)
 	ui = medfilt2( U(:, :, j, i), [3 1]);
 
 	% Find pixels that are unlabelled (value == 0) in one set but not in the other
-	% For this process we ignore single pixel wide gaps resulting from rounding errors
-	% during the reprojection stage
 	vIdx = vi == 0;
 	uIdx = ui == 0;
-	%vIdx = vIdx & ~(vIdx & (conv2(vIdx, [1 1 1] , 'same') == 1));
-	%uIdx = uIdx & ~(uIdx & (conv2(uIdx, [1 1 1]', 'same') == 1));
 
 	vi(vIdx) = ui(vIdx);
 	ui(uIdx) = vi(uIdx);

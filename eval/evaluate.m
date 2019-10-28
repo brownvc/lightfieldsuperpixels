@@ -42,6 +42,7 @@
 %%   year={2017}
 %%}
 function evaluate( fin, fout, path2HCI )
+  addpath('./eval', './eval/tight_subplot');
 
   % HCI dataset light fields
   param = parameters;
@@ -83,6 +84,7 @@ function evaluate( fin, fout, path2HCI )
     else
       disp(['WARNING! Could not recognize dataset for file ' files(i).name '. Skipping.']);
       disp('Please make sure the file name contains (buddha|horses|papillon|stilllife) to identify the HCI light field');
+      continue;
     end
     datasetFiles(j) = {cat(1, datasetFiles{j}, convertCharsToStrings(fullfile(fin, files(i).name)))};
 
@@ -126,9 +128,9 @@ function evaluate( fin, fout, path2HCI )
     usersResults = usersResults{1};
 
     if strcmp( datasets{d}, 'buddha') 
-      LF = HCIloadLF( [param.evalFilePathHCI '/' datasets{d} '/buddha.h5'], 0, 1, 'rgba' );
+      LF = HCIloadLF( [param.evalFilePathHCI '/' datasets{d} '/buddha.h5'], 'rgba' );
     else
-      LF = HCIloadLF( [param.evalFilePathHCI '/' datasets{d} '/lf.h5'], 0, 1, 'rgba' );
+      LF = HCIloadLF( [param.evalFilePathHCI '/' datasets{d} '/lf.h5'], 'rgba' );
     end
     plotComparisonQualitative( fout, datasets{d}, LF, usersResults, vclfs, lfsp, kmeans);
   end

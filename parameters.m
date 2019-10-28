@@ -14,7 +14,7 @@ classdef parameters
      vCamMovingRight = true;
 
      % evaluation parameters
-     evalFilePathHCI = '~/Dropbox (Brown)/Light fields/data/HCI_old/'
+     evalFilePathHCI = './HCI';
 
      % Line Detection pyramid levels
      linesPyramidLevels = 2;
