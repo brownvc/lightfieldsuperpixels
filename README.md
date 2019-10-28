@@ -8,7 +8,9 @@
  <sup>1</sup>Brown, <sup>2</sup>KAIST 
  In ICCV 2019
 
+<p align="center">
 [![Foo](./view-consistent-superpixels.gif)](https://youtu.be/xO2DW7N2GdE)
+</p>
 
 ### MATLAB Code | [Paper](https://cs.brown.edu/~nkhan6/docs/khan_iccv19.pdf) | [Supplemental](https://cs.brown.edu/~nkhan6/docs/khan_iccv19_supplemental.pdf) | [Results Video](https://www.youtube.com/watch?v=s2EVBgeo40Y) | [Presentation Video](https://youtu.be/xO2DW7N2GdE)
 
@@ -85,6 +87,6 @@ ordering; for light field images this should be `(y, x, rgb, v, u)` and for supe
 
 ## Errata 
 
-- In Figure 8, the central row of the EPFL light fields show view(4, 4), rather than view(5, 5)
+- In Figure 8 of the paper, the central row of the EPFL light fields show view(4, 4), rather than view(5, 5)
 - The manner in which labels are propagated has been updated. Before we were beginning at the top-most view in the central column, and moving down. Now we move out from the central view in a spiral. This leads to a slight improvement over the results reported in the paper.
 
