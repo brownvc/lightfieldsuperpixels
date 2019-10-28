@@ -8,6 +8,8 @@
  <sup>1</sup>Brown, <sup>2</sup>KAIST 
  In ICCV 2019
 
+[![Foo](./view-consistent-superpixels.gif)](https://youtu.be/xO2DW7N2GdE)
+
 <p align="center"> 
 [<img src="./view-consistent-superpixels.gif">](https://youtu.be/xO2DW7N2GdE)
 </p>
@@ -88,5 +90,5 @@ ordering; for light field images this should be `(y, x, rgb, v, u)` and for supe
 ## Errata 
 
 - In Figure 8, the central row of the EPFL light fields show view(4, 4), rather than view(5, 5)
-- The manner in which labels are propagated has been updated. Before we were beginning at the top-most view in the central column, and moving down. Now we move out from the central view in a spiral.
+- The manner in which labels are propagated has been updated. Before we were beginning at the top-most view in the central column, and moving down. Now we move out from the central view in a spiral. This leads to a slight improvement over the results reported in the paper.
 
