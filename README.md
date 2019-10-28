@@ -8,7 +8,23 @@
  <sup>1</sup>Brown, <sup>2</sup>KAIST 
  In ICCV 2019
 
-### MATLAB Code | [Paper](https://cs.brown.edu/~nkhan6/docs/khan_iccv19.pdf) | [Supplemental](https://cs.brown.edu/~nkhan6/docs/khan_iccv19_supplemental.pdf) | [Video](https://www.youtube.com/watch?v=s2EVBgeo40Y)
+<p align="center"> 
+<img src="./view-consistent-superpixels.gif">
+</p>
+
+### MATLAB Code | [Paper](https://cs.brown.edu/~nkhan6/docs/khan_iccv19.pdf) | [Supplemental](https://cs.brown.edu/~nkhan6/docs/khan_iccv19_supplemental.pdf) | [Results Video](https://www.youtube.com/watch?v=s2EVBgeo40Y) | [Presentation Video](https://youtu.be/xO2DW7N2GdE)
+
+## Citation
+If you use this code in your work, please cite the following paper,
+
+```
+@article{khan2019vclfs,
+  title={View-consistent 4D Lightfield Superpixel Segmentation},
+  author={Numair Khan, Qian Zhang, Lucas Kasser, Henry Stone, Min H. Kim, James Tompkin},
+  journal={International Conference on Computer Vision},
+  year={2019},
+}
+```
 
 ## Running the Code
 * [Generating superpixels](#generating-superpixels)
@@ -68,17 +84,5 @@ For datasets other than the old HCI, we can only do qualitative comparison. See 
 ordering; for light field images this should be `(y, x, rgb, v, u)` and for superpixel labels `(y, x, v, u)`.
 - The segmentation output has very high error: Make sure you specify the direction in which the camera moves in u and v. This can be done by setting the boolean variables `uCamMovingRight` and `vCamMovingRight` in `parameters.m`. The camera movement direction determines the occlusion order of EPI lines, and is important for the bipartite matching stage of our algorithm.
 - The code has been run and tested in MATLAB 2019a. Older version of MATLAB may throw errors on some functions.
-
-## Citation
-If you use this code in your work, please cite the following paper,
-
-```
-@article{khan2019vclfs,
-  title={View-consistent 4D Lightfield Superpixel Segmentation},
-  author={Numair Khan, Qian Zhang, Lucas Kasser, Henry Stone, Min H. Kim, James Tompkin},
-  journal={International Conference on Computer Vision},
-  year={2019},
-}
-```
 
 
