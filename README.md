@@ -8,14 +8,14 @@
  <sup>1</sup>Brown, <sup>2</sup>KAIST 
  In ICCV 2019
 
-<p align="center"> 
+[<p align="center"> 
 <img src="./view-consistent-superpixels.gif">
-</p>
+</p>](https://youtu.be/xO2DW7N2GdE)
 
 ### MATLAB Code | [Paper](https://cs.brown.edu/~nkhan6/docs/khan_iccv19.pdf) | [Supplemental](https://cs.brown.edu/~nkhan6/docs/khan_iccv19_supplemental.pdf) | [Results Video](https://www.youtube.com/watch?v=s2EVBgeo40Y) | [Presentation Video](https://youtu.be/xO2DW7N2GdE)
 
 ## Citation
-If you use this code in your work, please cite the following paper,
+If you use this code in your work, please cite our paper,
 
 ```
 @article{khan2019vclfs,
