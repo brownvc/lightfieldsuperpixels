@@ -1,4 +1,5 @@
 data/*
+results/*
 *.psd
 *.mp4
 *.png
@@ -6,6 +7,7 @@ data/*
 *#
 *.avi
 *.mov
+*.mat
 *.txt
 .DS_Store
 */.DS_Store
