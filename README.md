@@ -8,9 +8,9 @@
  <sup>1</sup>Brown, <sup>2</sup>KAIST 
  In ICCV 2019
 
-[<p align="center"> 
-<img src="./view-consistent-superpixels.gif">
-</p>](https://youtu.be/xO2DW7N2GdE)
+<p align="center"> 
+[<img src="./view-consistent-superpixels.gif">](https://youtu.be/xO2DW7N2GdE)
+</p>
 
 ### MATLAB Code | [Paper](https://cs.brown.edu/~nkhan6/docs/khan_iccv19.pdf) | [Supplemental](https://cs.brown.edu/~nkhan6/docs/khan_iccv19_supplemental.pdf) | [Results Video](https://www.youtube.com/watch?v=s2EVBgeo40Y) | [Presentation Video](https://youtu.be/xO2DW7N2GdE)
 
@@ -85,4 +85,8 @@ ordering; for light field images this should be `(y, x, rgb, v, u)` and for supe
 - The segmentation output has very high error: Make sure you specify the direction in which the camera moves in u and v. This can be done by setting the boolean variables `uCamMovingRight` and `vCamMovingRight` in `parameters.m`. The camera movement direction determines the occlusion order of EPI lines, and is important for the bipartite matching stage of our algorithm.
 - The code has been run and tested in MATLAB 2019a. Older version of MATLAB may throw errors on some functions.
 
+## Errata 
+
+- In Figure 8, the central row of the EPFL light fields show view(4, 4), rather than view(5, 5)
+- The manner in which labels are propagated has been updated. Before we were beginning at the top-most view in the central column, and moving down. Now we move out from the central view in a spiral.
 
